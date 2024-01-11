@@ -1,4 +1,4 @@
-import React from "react"
+
 import { GitHub, LinkedIn } from "@mui/icons-material"
 function Footer() {
 	return (

@@ -17,12 +17,9 @@ export default function Home() {
 	}, [])
 
 	return (
-		// <div
-		// 	className={`bg-primary text-txt rounded-lg mt-2 shadow-xl transition-transform duration-700 ease-in-out transform ${
-		// 		isVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
-		// 	} `}></div>
+	
 		<main className=" flex flex-col my-auto gap-2 sm:gap-4 md:gap-6 ">
-			{/*className="flex min-h-screen justify-between flex-col items-center p-4 bg-slate-300 text-black"*/}
+		
 			<div className={` justify-center items-center w-full h-full md:px-8 lg:px-20`}>
 				<h1 className="text-xl sm:text-2xl font-bold text-center sm:text-start mb-2 sm:mb-4 text-primary">
 					<Typewriter
@@ -41,7 +38,8 @@ export default function Home() {
 							src={profile}
 							width={400}
 							height={400}
-							objectFit="cover"
+							style={{ objectFit: "cover" }}
+							priority={true}
 							className="rounded-full"
 						/>
 					</div>

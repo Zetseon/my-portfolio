@@ -1,5 +1,3 @@
-import React from "react"
-
 const RepoCard = ({ repo }) => {
 	const user = repo.owner.login
 	const pageURL = `https://${user}.github.io/`
@@ -23,10 +21,10 @@ const RepoCard = ({ repo }) => {
 			languageColor = "text-orange-500"
 			break
 		case "html":
-			languageColor= "text-red-600"
+			languageColor = "text-red-600"
 			break
 		default:
-			languageColor = 'text-txt'
+			languageColor = "text-txt"
 	}
 
 	return (

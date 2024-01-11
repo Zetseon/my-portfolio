@@ -20,7 +20,7 @@ const ProjectPage = () => {
 	if (error) {
 		return <p>Error: {error.message}</p>
 	}
-	console.log(data, sortedData)
+
 	return (
 		<div>
 			{/* Display your fetched data */}
