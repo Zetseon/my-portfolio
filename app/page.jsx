@@ -17,9 +17,7 @@ export default function Home() {
 	}, [])
 
 	return (
-	
 		<main className=" flex flex-col my-auto gap-2 sm:gap-4 md:gap-6 ">
-		
 			<div className={` justify-center items-center w-full h-full md:px-8 lg:px-20`}>
 				<h1 className="text-xl sm:text-2xl font-bold text-center sm:text-start mb-2 sm:mb-4 text-primary">
 					<Typewriter
@@ -44,11 +42,11 @@ export default function Home() {
 						/>
 					</div>
 					<div className="flex flex-col items-center sm:w-3/4 p-2">
-						<h1 className="text-sm sm:text-md text-center mb-2 sm:mb-4 lg:mb-8 text-txt">
-							Hey there! I'm Parth Shah, a recent graduate thrilled about diving into
-							the world of software development. I've got insatiable curiosity, a love
-							for learning, and a knack for problem-solving that keeps me on my toes.
-							In the past year, I've dived into and made myself familiar with
+						<h1 className="text-sm sm:text-md text-left mb-2 sm:mb-4 lg:mb-8 text-txt">
+							Hey there! I'm Parth Shah, a recent graduate eager about venturing into
+							the world of software development. I have an insatiable curiosity, a
+							love for learning, and a knack for problem-solving that keeps me on my
+							toes. In the past year, I've dived into and made myself familiar with
 							JavaScript, ReactJS, NextJS, Tailwind, and Bootstrap. Let's connect on
 							LinkedIn and chat about how I can bring my energy and skills to
 							contribute to your team's success!
