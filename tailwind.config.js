@@ -9,16 +9,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        //'primary': '#0f172a',
         'primary': '#0f172a',
         'secondary': '#1f2937',
         'third':"#ADBAC7",
         'fourth':'#a6b0ba',
-        'button': '#00796B',
+        'button': '#007976',
         'txt': '#e0dcdc',
         'txt-second': '#539bf5',
         //#16a085
         //#a3e4d7
         //#768390
+        // button - #00796B
       },
     },
     screens: {
