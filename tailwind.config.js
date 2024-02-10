@@ -8,12 +8,15 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      grayscale: {
+        50: '70%',
+      },
       colors: {
         //'primary': '#0f172a',
         'primary': '#0f172a',
         'secondary': '#1f2937',
-        'third':"#ADBAC7",
-        'fourth':'#a6b0ba',
+        'third': "#ADBAC7",
+        'fourth': '#a6b0ba',
         'button': '#007976',
         'txt': '#e0dcdc',
         'txt-second': '#539bf5',

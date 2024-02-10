@@ -30,7 +30,7 @@ export default function Home() {
 					className={`flex flex-col sm:flex-row border sm:items-center gap-5 md:gap-10 shadow-xl rounded-xl bg-primary p-4 transition-transform duration-700 ease-in-out transform ${
 						isVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
 					}`}>
-					<div className="flex justify-center">
+					<div className="flex justify-center ">
 						<Image
 							alt="Profile picture"
 							src={profile}
@@ -38,7 +38,7 @@ export default function Home() {
 							height={400}
 							style={{ objectFit: "contain" }}
 							priority={true}
-							className="rounded-full"
+							className="rounded-full  grayscale-50"
 						/>
 					</div>
 					<div className="flex flex-col items-center sm:w-3/4 p-2">
@@ -63,7 +63,7 @@ export default function Home() {
 				</div>
 			</div>
 			{/* Skills Section */}
-			<div className="flex flex-col justify-center w-full h-full md:px-8 lg:px-20 ">
+			<div className="flex flex-col justify-center w-full h-full md:px-8 lg:px-20">
 				<h1 className="text-xl sm:text-2xl font-bold text-center sm:text-start mb-2 sm:mb-4 text-primary ">
 					<Typewriter
 						onInit={(typewriter) => {

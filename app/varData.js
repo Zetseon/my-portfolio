@@ -21,7 +21,9 @@ export const education = [
 		degree: "Bachelors",
 		major: "Computer Science",
 		startyear: "2019",
+		startmonth:'January',
 		endyear:"2023",
+		endmonth:'June',
 		"relevant coursework": [
 			"Software Engineering",
 			"Data Structures",
@@ -40,7 +42,9 @@ export const education = [
 		degree: "Associates",
 		major: "Computer information Systems",
 		startyear: "2016",
-		endyear:"2019",
+		startmonth:'June',
+		endyear:"2018",
+		endmonth:'December',
 		"relevant coursework": ["Web Programming", "Intro To Computer Security"],
 	},
 ]

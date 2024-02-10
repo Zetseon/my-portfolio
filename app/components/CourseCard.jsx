@@ -22,7 +22,7 @@ const CourseCard = ({ course }) => {
 							<span className="font-semibold underline text-txt-second">{course.degree}</span> in{" "}
 							<span className="italic font-medium">{course.major}</span>
 						</h2>
-						<p className="text-right text-third">Graduated: {course.endyear}</p>
+						<p className="text-right text-third">{course.startmonth} {course.startyear} - {course.endmonth} {course.endyear}</p>
 					</div>
 					<span className="font-medium ">{course.school}</span>
 				</div>
