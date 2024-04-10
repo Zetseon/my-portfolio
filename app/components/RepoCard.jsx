@@ -10,17 +10,17 @@ const RepoCard = ({ repo }) => {
 	}
 
 	let languageColor
-	switch (repo.language.toLowerCase()) {
-		case "python":
+	switch (repo.language) {
+		case "Python":
 			languageColor = "text-txt-second"
 			break
-		case "javascript":
+		case "JavaScript":
 			languageColor = "text-yellow-300"
 			break
-		case "java":
+		case "Java":
 			languageColor = "text-orange-500"
 			break
-		case "html":
+		case "HTML":
 			languageColor = "text-red-600"
 			break
 		default:

@@ -34,11 +34,11 @@ export default function Home() {
 						<Image
 							alt="Profile picture"
 							src={profile}
-							width={400}
+							width={350}
 							height={400}
 							style={{ objectFit: "contain" }}
 							priority={true}
-							className="rounded-full  grayscale-50"
+							className="rounded-full  grayscale-30"
 						/>
 					</div>
 					<div className="flex flex-col items-center sm:w-3/4 p-2">

@@ -3,7 +3,7 @@ import RepoCard from "../components/RepoCard"
 import useFetch from "../components/hooks/useFetch"
 import { CircularProgress, Backdrop } from "@mui/material"
 const ProjectPage = () => {
-	const apiUrl = "https://api.github.com/users/Zetseon/repos" // replace with your API endpoint
+	const apiUrl = "https://api.github.com/users/Zetseon/repos" 
 
 	const { data, loading, error } = useFetch(apiUrl)
 	const sortedData = data ? [...data].sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at)) : null;
