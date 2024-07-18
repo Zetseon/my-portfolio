@@ -7,8 +7,8 @@ import { usePathname } from "next/navigation"
 const Navbar = () => {
 	const path = usePathname()
 	return (
-		<nav className="flex w-full justify-between bg-primary">
-			<div className="flex w-full items-center justify-center gap-2 p-1 bg-primary">
+		<nav className="flex w-full justify-between bg-primary ">
+			<div className="flex w-full items-center justify-center gap-2 p-2 bg-primary">
 				<Link href="/">
 					<div
 						className={`${
